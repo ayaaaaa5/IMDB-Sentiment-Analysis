@@ -1,0 +1,21 @@
+Results Discussion
+==========================================================================================
+
+The custom Multi-Layer Perceptron (MLP) achieved approximately 75% test accuracy using
+sentence-level polarity features extracted from VADER and TextBlob.
+
+The confusion matrix indicates balanced behavior between positive and negative
+classes.
+
+The training and validation loss curves decrease smoothly and remain close to
+each other across epochs. 
+-->This indicates stable convergence and no significant
+overfitting.
+
+Although the model does not achieve very high accuracy, this performance is
+reasonable given that only six sentence-level polarity features were used.
+
+Overall, the model demonstrates correct implementation of forward propagation,
+binary cross-entropy loss, backpropagation, and gradient descent.
+
+==========================================================================================

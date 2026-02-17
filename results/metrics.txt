@@ -1,0 +1,20 @@
+IMDB Sentiment Analysis – Evaluation Metrics
+=============================================
+
+Validation Results
+------------------
+Accuracy = 0.75
+Precision = TP/(TP+FP) = 6018/(6018+2195)= 0.73
+Recall = TP/(TP+FN) = 0.80
+F1-score = 2 x ((Precision.Recall)/(Precision+Recall)) = 0.76
+
+Test Results
+------------
+Accuracy: 0.75
+
+Confusion Matrix (Test)
+-----------------------
+True Negatives  : 5305
+False Positives : 2195
+False Negatives : 1482
+True Positives  : 6018
